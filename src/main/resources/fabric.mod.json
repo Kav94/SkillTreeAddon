@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "skill_tabs",
+  "version": "${version}",
+  "name": "SkillTreeAddon",
+  "description": "Client-side inventory shortcut for Pufferfish's Skills.",
+  "authors": ["Kav94"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ogc.skilltreeTab.client.SkilltreeTabClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "cloth-config2": "*",
+    "libz": "*",
+    "puffish_skills": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  }
+}

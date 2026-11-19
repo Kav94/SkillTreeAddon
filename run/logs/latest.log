@@ -1,0 +1,18 @@
+[20:51:07] [main/WARN] (FabricLoader/Knot) Class path entries reference missing files: C:\Users\kavin\Documents\Codex\2026-11-03\pe\outputs\SkillTreeAddon\build\classes\java\main - the game may not load properly!
+[20:51:07] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.19.5
+[20:51:07] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[20:51:07] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_NO_CANDIDATE skill_tabs 1.0 {depends puffish_skills @ [*]}, ROOT_FORCELOAD_SINGLE skill_tabs 1.0]
+[20:51:07] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP skill_tabs 1.0 {depends puffish_skills @ [*]}]
+[20:51:07] [main/INFO] (FabricLoader/Resolution) Fix: add [add:puffish_skills 1 ([(-∞,∞)])], remove [], replace []
+[20:51:07] [main/ERROR] (FabricLoader) Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install puffish_skills, any version.
+More details:
+	 - Mod 'SkillTreeAddon' (skill_tabs) 1.0 requires any version of puffish_skills, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.19.5.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:202) ~[fabric-loader-0.19.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.19.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) [fabric-loader-0.19.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.19.5.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
